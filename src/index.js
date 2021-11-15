@@ -3,10 +3,10 @@ const bip39 = require('bip39')
     , { NETWORKS } = require('./constants')
 
 function fromMnemonic(mnemonic, password, isTestnet) {
-  BIP84.fromSeed.call(this, mnemonic, password, isTestnet, 5)
+  BIP84.fromMnemonic.call(this, mnemonic, password, isTestnet, 5)
 }
 
-fromMnemonic.prototype = Object.create(BIP84.fromSeed.prototype)
+fromMnemonic.prototype = Object.create(BIP84.fromMnemonic.prototype)
 
 function fromZPrv(zprv) {
   BIP84.fromZPrv.call(this, zprv, false, NETWORKS)

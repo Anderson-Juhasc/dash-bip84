@@ -1,6 +1,6 @@
 {
   "name": "dash-bip84",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Creates BIP84 keychains for Dash mainnet and testnet",
   "main": "./src/index.js",
   "repository": {
@@ -23,7 +23,7 @@
   "author": "Anderson Juhasc",
   "license": "ISC",
   "dependencies": {
-    "bip84": "^0.2.5"
+    "bip84": "^0.2.7"
   },
   "funding": {
     "type": "individual",
